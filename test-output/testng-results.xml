@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="112136" started-at="2019-01-29T13:07:13Z" finished-at="2019-01-29T13:09:05Z">
+    <groups>
+    </groups>
+    <test name="Validating Registration" duration-ms="53689" started-at="2019-01-29T13:07:13Z" finished-at="2019-01-29T13:08:07Z">
+      <class name="Office.ArchitectRegistration">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Office.ArchitectRegistration@1bd4fdd]" name="initialize" is-config="true" duration-ms="20510" started-at="2019-01-29T13:07:13Z" finished-at="2019-01-29T13:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="architectRegistration()[pri:0, instance:Office.ArchitectRegistration@1bd4fdd]" name="architectRegistration" duration-ms="32887" started-at="2019-01-29T13:07:34Z" finished-at="2019-01-29T13:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- architectRegistration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Office.ArchitectRegistration@1bd4fdd]" name="teardown" is-config="true" duration-ms="226" started-at="2019-01-29T13:08:07Z" finished-at="2019-01-29T13:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Office.ArchitectRegistration -->
+    </test> <!-- Validating Registration -->
+    <test name="Validating Home page" duration-ms="12384" started-at="2019-01-29T13:08:07Z" finished-at="2019-01-29T13:08:19Z">
+      <class name="Office.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Office.HomePage@692f203f]" name="initialize" is-config="true" duration-ms="8386" started-at="2019-01-29T13:08:07Z" finished-at="2019-01-29T13:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="Homepage()[pri:0, instance:Office.HomePage@692f203f]" name="Homepage" duration-ms="516" started-at="2019-01-29T13:08:15Z" finished-at="2019-01-29T13:08:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [12State Industrial Development Authority, Uttarakhand] but found [State Industrial Development Authority, Uttarakhand]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [12State Industrial Development Authority, Uttarakhand] but found [State Industrial Development Authority, Uttarakhand]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Office.HomePage.Homepage(HomePage.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Office.HomePage@692f203f]" name="teardown" is-config="true" duration-ms="2446" started-at="2019-01-29T13:08:17Z" finished-at="2019-01-29T13:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Office.HomePage -->
+    </test> <!-- Validating Home page -->
+    <test name="Validating asert" duration-ms="19765" started-at="2019-01-29T13:08:19Z" finished-at="2019-01-29T13:08:39Z">
+      <class name="Office.Assetcase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Office.Assetcase@3270d194]" name="initialize" is-config="true" duration-ms="16565" started-at="2019-01-29T13:08:19Z" finished-at="2019-01-29T13:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="assertC()[pri:0, instance:Office.Assetcase@3270d194]" name="assertC" duration-ms="135" started-at="2019-01-29T13:08:36Z" finished-at="2019-01-29T13:08:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [111State Industrial Development Authority, Uttarakhand] but found [State Industrial Development Authority, Uttarakhand]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [111State Industrial Development Authority, Uttarakhand] but found [State Industrial Development Authority, Uttarakhand]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Office.Assetcase.assertC(Assetcase.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertC -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Office.Assetcase@3270d194]" name="teardown" is-config="true" duration-ms="2164" started-at="2019-01-29T13:08:37Z" finished-at="2019-01-29T13:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Office.Assetcase -->
+    </test> <!-- Validating asert -->
+    <test name="Validating multiple login" duration-ms="26219" started-at="2019-01-29T13:08:39Z" finished-at="2019-01-29T13:09:05Z">
+      <class name="Office.MultipleLogin">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Office.MultipleLogin@4802796d]" name="initialize" is-config="true" duration-ms="22925" started-at="2019-01-29T13:08:39Z" finished-at="2019-01-29T13:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="LoginP(java.lang.String, java.lang.String)[pri:0, instance:Office.MultipleLogin@4802796d]" name="LoginP" duration-ms="594" started-at="2019-01-29T13:09:02Z" data-provider="getData" finished-at="2019-01-29T13:09:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nru@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginP -->
+        <test-method status="PASS" signature="LoginP(java.lang.String, java.lang.String)[pri:0, instance:Office.MultipleLogin@4802796d]" name="LoginP" duration-ms="437" started-at="2019-01-29T13:09:03Z" data-provider="getData" finished-at="2019-01-29T13:09:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ru@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8911]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginP -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Office.MultipleLogin@4802796d]" name="teardown" is-config="true" duration-ms="2244" started-at="2019-01-29T13:09:03Z" finished-at="2019-01-29T13:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Office.MultipleLogin -->
+    </test> <!-- Validating multiple login -->
+  </suite> <!-- Suite -->
+</testng-results>

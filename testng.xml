@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Office.Listener"></listener>
+</listeners>
+
+  <test name="Validating Registration">
+    <classes>
+      <class name="Office.ArchitectRegistration"/>
+          </classes>
+      </test>
+      
+      <test name="Validating Home page">
+    <classes>
+      <class name="Office.HomePage"/>
+      </classes>
+      </test>
+      
+    <test name="Validating asert">
+    <classes>   
+      <class name="Office.Assetcase"/>
+    </classes>
+      </test>
+      
+    <test name="Validating multiple login">
+    <classes>     
+      <class name="Office.MultipleLogin"/>
+    </classes>
+  </test> 
+  
+</suite> 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Office.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Validating Home page(failed)">
+    <classes>
+      <class name="Office.HomePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="Homepage"/>
+        </methods>
+      </class> <!-- Office.HomePage -->
+    </classes>
+  </test> <!-- Validating Home page(failed) -->
+  <test thread-count="5" name="Validating asert(failed)">
+    <classes>
+      <class name="Office.Assetcase">
+        <methods>
+          <include name="assertC"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Office.Assetcase -->
+    </classes>
+  </test> <!-- Validating asert(failed) -->
+</suite> <!-- Failed suite [Suite] -->
